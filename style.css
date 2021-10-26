@@ -1,3 +1,46 @@
 body, html{
     margin: 0;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+.header-span{
+    font-size: 3em;
+}
+
+.navbar{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+}
+
+.option{
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px 0 25px 0;
+}
+
+.options{
+    font-size: 1.5em;
+}
+
+.main-content{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
 }
